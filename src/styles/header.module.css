@@ -1,0 +1,20 @@
+
+.header{
+    @apply  
+    flex 
+    justify-center
+    gap-20
+    sticky top-0
+    text-xs 
+    bg-[#ecececc0]
+    p-4 
+    backdrop-blur-sm
+    w-screen
+    transition delay-75
+}
+
+.header a:hover{
+    @apply 
+    transition delay-75
+   text-[#f5f5f5]
+}
