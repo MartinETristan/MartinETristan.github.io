@@ -25,7 +25,7 @@ function DemoReel() {
   const images = useMemo(() => {
     const LoadedImages: HTMLImageElement[] = [];
 
-    for (let i = 0; i < 2187; i++) {
+    for (let i = 1; i < 2189; i++) {
       const img = new Image();
       img.src = `/images/DemoReel/en/${i}.webp`;
       LoadedImages.push(img);

@@ -1,4 +1,5 @@
 import {Suspense} from 'react'
+import { Link } from "react-router-dom";
 import {useTranslation}  from "react-i18next"
 import Styles from '../styles/header.module.css'
 import changeLanguage from '../utils/functions/changeLanguage';
@@ -11,10 +12,10 @@ function header() {
   return (
     <div className= {Styles.header}>
       <Suspense fallback='loading'>
-        <a href='/'>{t("home")}</a>
-        <a href='/portfolio'>{t("portfolio")}</a>
-        <a href='/services'>{t("services")}</a>
-        <a href='/about'>{t("about")}</a>
+      <Link to="/">{t("home")}</Link>
+      <Link to="/portfolio">{t("portfolio")}</Link>
+      <Link to="/services">{t("services")}</Link>
+      <Link to="/about">{t("about")}</Link>
         <button onClick={changeLanguage} className='flex justify-center items-center gap-1'><TbWorld/> {t("Language")}</button>
       </Suspense>
     </div>
