@@ -1,0 +1,75 @@
+.footer{
+    @apply  
+    flex 
+    flex-col
+    justify-center
+    items-center    
+    gap-4
+    sticky top-0
+    text-xs 
+    bg-[#ecececc0]
+    /* p-5 */
+    w-screen
+    transition delay-75
+}
+
+.titles{
+    @apply 
+    font-bold
+    text-xl
+}
+
+.Top_Footer{
+    @apply 
+    flex 
+    flex-row
+    text-gray-600
+    gap-16
+    mt-10
+    mb-10
+}
+
+.list_cont{
+    @apply 
+    text-left
+    max-w-[20dvw]
+}
+
+
+.lists{
+    @apply 
+    flex 
+    mt-2
+    flex-col
+    gap-2
+}
+
+.list_items{
+    @apply 
+    text-sm
+    flex 
+    cursor-default
+    gap-1   
+    items-center    
+    text-gray-600
+    hover:text-gray-900
+    transition delay-75
+}
+
+hr {
+    width: 100%;
+    border-width: .5px;
+  }
+
+.links{
+    @apply 
+    text-sm
+    text-blue-500
+    hover:text-blue-700
+    transition delay-75
+}
+
+.End{
+   @apply 
+   mb-5
+}

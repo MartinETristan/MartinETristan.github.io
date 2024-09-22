@@ -1,0 +1,63 @@
+
+.item {
+    @apply
+      z-10
+      bg-[#ecececc0]
+      backdrop-blur-md
+      w-screen
+      h-screen
+      top-0
+      fixed
+      overflow-hidden
+  }
+  
+  .item_cont {
+    @apply
+      flex
+      justify-center
+      items-center
+      w-screen
+      h-screen
+      overflow-auto 
+  }
+  
+  .message_item {
+    @apply
+      flex
+      flex-col
+      gap-2
+      text-xs
+      w-1/2
+      h-screen
+      relative
+      overflow-auto
+      pr-10
+  }
+  
+  .title {
+    @apply
+      mt-32
+      font-bold
+      text-5xl
+  }
+  
+  .message {
+    @apply
+      text-left
+      text-xl
+  }
+  
+  .button {
+    @apply
+      mt-10
+      bg-gray-200
+      text-black
+      p-2
+      rounded-md
+      hover:bg-gray-500
+      hover:text-white
+      w-full
+      transition delay-75
+      mb-20
+  }
+  

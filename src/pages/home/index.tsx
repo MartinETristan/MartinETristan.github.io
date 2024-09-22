@@ -1,12 +1,12 @@
-import DemoReel from "../../components/demoreel";
+import patrick from "/images/Gifs/patrick.gif";
 
 function index() {
   return (
     <>
       <div style={{ height: "150px" }}></div>
-      Coming Soon
-      <div style={{ height: "500px" }}></div>
-      <DemoReel/>
+      <div className="w-screen flex justify-center">
+        <img src={patrick} alt="coming soon" />
+      </div>
       <div style={{ height: "500px" }}></div>
     </>
   );

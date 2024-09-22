@@ -8,7 +8,7 @@
     text-xs 
     bg-[#ecececc0]
     p-4 
-    backdrop-blur-sm
+    backdrop-blur-md
     w-screen
     transition delay-75
 }
