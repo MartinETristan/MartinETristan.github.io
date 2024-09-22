@@ -1,0 +1,36 @@
+{
+    "social":{
+        "title":"Social media"
+    },  
+    "about": {
+        "title": "About",
+        "privacy": {
+            "title": "Privacy Policy",
+            "description": "Martin Emmanuel Tristán Méndez, as well as his organizations (TRM Studio and TRM Solutions), respect the privacy of all clients, whether they are employees or collaborators. We are committed to protecting and safeguarding all personal and professional information that our clients share with us.    **Data Protection**  We are committed to taking all necessary security measures to ensure that our clients' personal information is protected from unauthorized access, loss, or improper disclosure. These measures include physical, digital, and organizational security protocols. Under no circumstances will we share, sell, or disclose our clients' personal or contact information to third parties, unless we have their express consent or are legally obligated to do so.    **Client Rights**  Clients have the right to access, correct, or request the deletion of their personal information at any time. If you wish to exercise any of these rights, you can contact us at: martintristan_@outlook.com.    We may update this privacy policy occasionally to reflect changes in our practices or applicable laws.    We will notify you of any significant changes through the communication channels we have on record."
+        },
+        "terms": {
+            "title": "Terms and Conditions",
+            "description": "These Terms and Conditions govern the use of services provided by me (Martin Emmanuel Tristán Méndez), TRM Studio, and TRM Solutions (hereinafter 'we' or 'the company') to our clients.    By using any of our services, the client grants us the non-exclusive right to use the material created by TRM Studio and TRM Solutions for the following purposes:  **• Portfolio:**  We may use the created material as part of our portfolio, either in digital or printed format, to showcase examples of our work.  **• Marketing and Advertising:**  We reserve the right to use the material in marketing campaigns, social media, our website, or other promotional means for the company. This includes, but is not limited to, publications on digital platforms and online promotional content.    **Client Rights**  The client retains all rights to the created material unless otherwise specified in a separate contract. However, the client grants the company a non-exclusive and free license to use said material for the aforementioned purposes.    **Credits**  When possible and appropriate, we will provide proper attribution to the client in the use of their material unless the client requests otherwise.    **Exceptions**  If the client does not wish for their material to be used for the aforementioned purposes, they can communicate this in writing to: martintristan_@outlook.com.  We are committed to respecting this request and will not use said material in future marketing or promotional campaigns.    We reserve the right to modify these Terms and Conditions at any time.  Modifications will be notified to the client and will take effect once published on our website."
+        },
+        "cookies": {
+            "title": "Cookie Policy",
+            "description": "On this page (hereinafter 'we' or 'the company'), we respect the privacy of our clients and want to be transparent about how we use cookies on our website.  This policy explains what cookies we use and for what purposes.    **What are cookies?**  Cookies are small text files that are stored on your device (computer, mobile, tablet) when you visit a website. These files allow the website to remember your preferences and perform specific functions that enhance your browsing experience.    **What types of cookies do we use?**  On our website, we use strictly necessary and functional cookies, specifically for:  **• Language preferences:**  We store the language you select so that the site displays in your preferred language during your visits.  **• Dark or light mode:**  We store your display preference between dark mode or light mode of the site to provide you with a consistent and personalized user experience.  **• Other site preferences:**  Any other customized settings you have adjusted, such as font size (aesthetic effects, etc.) or accessibility options.    **What do we NOT do with cookies?**   • We do not use cookies to track your activity outside of our website.  • We do not store personal data such as name, email, or any other identifiable information.  • We do not share cookies with third parties for advertising or marketing purposes.  • We do not use your cookies to build a spaceship and/or go to the moon (though that would be awesome).    The cookies we use are essential for the proper functioning of our website and for improving your experience. You can control and manage the use of cookies through your browser's settings. However, please note that disabling certain cookies may affect the functionality of the page, such as the loss of saved preferences.    We reserve the right to update this cookie policy at any time to reflect changes in our practices or applicable legislation.    We recommend reviewing this page periodically to stay informed of any updates."
+        }
+    },
+    "supportme":{
+        "title":"Support me",
+        "donate":"Donate",
+        "sponsor":"Sponsor"
+    },  
+    "trmsolitions":{
+        "title":"TRM Solutions",
+        "description":"Software development and technological solutions",
+        "contact":"Visit"
+    },
+    "trmstudio":{
+        "title":"TRM Studio",
+        "description":"Visual effects studio and digital marketing",
+        "contact":"Visit"
+    },
+    "rights": "All rights reserved"
+}
