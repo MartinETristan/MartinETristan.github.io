@@ -1,7 +1,6 @@
 import service from "/images/Gifs/service.webp";
 import { Link } from "react-router-dom";
 
-
 function services() {
   return (
     <>
@@ -11,9 +10,11 @@ function services() {
       </div>
       <div style={{ height: "150px" }}></div>
       <Link to="/about/TRM_Studio"> TRM Studio</Link>
-      <Link to="/about/TRM_Solutions">TRM Solutions</Link>
+      <div style={{ height: "150px" }}></div>
+      <Link to="/about/TRM_Systems">TRM Systems</Link>
+      <div style={{ height: "150px" }}></div>
     </>
-  )
+  );
 }
 
-export default services
+export default services;

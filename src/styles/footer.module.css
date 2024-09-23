@@ -56,6 +56,17 @@
     transition delay-75
 }
 
+.list_items_static{
+    @apply 
+    text-sm
+    flex 
+    cursor-default
+    gap-1   
+    items-center    
+    text-gray-600
+    transition delay-75
+}
+
 hr {
     width: 100%;
     border-width: .5px;
@@ -73,3 +84,39 @@ hr {
    @apply 
    mb-5
 }
+
+
+/* Dark Mode */
+
+:global(.dark) .footer {
+    @apply
+    bg-zinc-800
+    text-gray-200
+  }
+
+:global(.dark) hr {
+    @apply
+    border-zinc-700
+  }
+
+:global(.dark) .list_items {
+    @apply
+  text-gray-400
+  hover:text-gray-200
+  }
+
+:global(.dark) .list_items_static {
+    @apply
+  text-gray-400
+  }
+
+:global(.dark) .titles {
+    @apply
+  text-gray-200
+  }
+
+:global(.dark) .links {
+    @apply
+    text-blue-400
+    hover:text-blue-200
+  }

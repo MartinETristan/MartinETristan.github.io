@@ -50,14 +50,37 @@
   .button {
     @apply
       mt-10
-      bg-gray-200
+      bg-zinc-200
       text-black
       p-2
       rounded-md
-      hover:bg-gray-500
-      hover:text-white
+      hover:bg-zinc-300
       w-full
       transition delay-75
       mb-20
   }
   
+
+  /* Darkmode */
+
+  :global(.dark) .item {
+    @apply
+    bg-[#141414c0]
+  }
+
+  :global(.dark) .button {
+    @apply
+    bg-zinc-800
+    text-white
+    hover:bg-zinc-700
+  }
+
+  :global(.dark) .title {
+    @apply
+    text-white
+  }
+
+  :global(.dark) .message {
+    @apply
+    text-slate-50
+  }

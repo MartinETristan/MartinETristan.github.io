@@ -117,10 +117,10 @@ function footer() {
             </ul>
           </div>
           <div className={Styles.list_cont}>
-            <header className={Styles.titles}> TRM Solutions</header>
+            <header className={Styles.titles}> {t("trmsystems.title")}</header>
             <ul className={Styles.lists}>
               <li>
-                <p className={Styles.list_items}>{t("trmsolitions.description")}</p>
+                <p className={Styles.list_items_static}>{t("trmsystems.description")}</p>
               </li>
               <li>
                 <a
@@ -129,16 +129,16 @@ function footer() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {t("trmsolitions.contact")}
+                  {t("trmsystems.contact")}
                 </a>
               </li>
             </ul>
           </div>
           <div className={Styles.list_cont}>
-            <header className={Styles.titles}> TRM Studio</header>
+            <header className={Styles.titles}> {t("trmstudio.title")}</header>
             <ul className={Styles.lists}>
               <li>
-                <p className={Styles.list_items}>{t("trmstudio.description")}</p>
+                <p className={Styles.list_items_static}>{t("trmstudio.description")}</p>
               </li>
               <li>
                 <a

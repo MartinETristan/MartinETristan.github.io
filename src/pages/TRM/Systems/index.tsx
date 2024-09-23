@@ -1,6 +1,6 @@
-import logo from "/images/Logo/studio.jpg";
+import logo from "/images/Logo/systems.jpg";
 
-function TRMStudio() {
+function TRMSystems() {
   return (
     <>
       <div style={{ height: "150px" }}></div>
@@ -12,4 +12,4 @@ function TRMStudio() {
   );
 }
 
-export default TRMStudio;
+export default TRMSystems;
