@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   language: null,
+  theme: null,
 };
 
 export const userSlice = createSlice({
@@ -10,6 +11,9 @@ export const userSlice = createSlice({
   reducers: {
     setLanguage: (state, action) => {
       state.language = action.payload;
+    },
+    setTheme: (state, action) => {
+      state.theme = action.payload;
     },
   },
 });

@@ -120,7 +120,7 @@ function footer() {
             <header className={Styles.titles}> TRM Solutions</header>
             <ul className={Styles.lists}>
               <li>
-                <p>{t("trmsolitions.description")}</p>
+                <p className={Styles.list_items}>{t("trmsolitions.description")}</p>
               </li>
               <li>
                 <a
@@ -138,7 +138,7 @@ function footer() {
             <header className={Styles.titles}> TRM Studio</header>
             <ul className={Styles.lists}>
               <li>
-                <p>{t("trmstudio.description")}</p>
+                <p className={Styles.list_items}>{t("trmstudio.description")}</p>
               </li>
               <li>
                 <a
