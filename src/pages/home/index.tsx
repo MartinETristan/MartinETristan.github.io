@@ -50,17 +50,35 @@ const Index = () => {
     {
       title: `${t("tecnologies.languajes")}`,
       icon: <FaCode />,
-      techs: [SiHtml5, SiCss3, SiJavascript, SiTypescript, SiPython, SiPhp],
+      techs: [
+        { name: "HTML5", icon: SiHtml5 },
+        { name: "CSS3", icon: SiCss3 },
+        { name: "JavaScript", icon: SiJavascript },
+        { name: "TypeScript", icon: SiTypescript },
+        { name: "Python", icon: SiPython },
+        { name: "PHP", icon: SiPhp },
+      ],
     },
     {
       title: `${t("tecnologies.backend")}`,
       icon: <FaDatabase />,
-      techs: [SiExpress, SiMysql, SiNodemon],
+      techs: [
+        { name: "Express", icon: SiExpress },
+        { name: "MySQL", icon: SiMysql },
+        { name: "Nodemon", icon: SiNodemon },
+      ],
     },
     {
       title: `${t("tecnologies.frontend")}`,
       icon: <FaTools />,
-      techs: [SiReact, SiVite, SiNpm, SiGithub, SiAntdesign, SiTailwindcss],
+      techs: [
+        { name: "React", icon: SiReact },
+        { name: "Vite", icon: SiVite },
+        { name: "NPM", icon: SiNpm },
+        { name: "GitHub", icon: SiGithub },
+        { name: "Ant Design", icon: SiAntdesign },
+        { name: "Tailwind CSS", icon: SiTailwindcss },
+      ],
     },
   ];
 
@@ -204,10 +222,10 @@ const Index = () => {
                     {icon} {title}
                   </h3>
                   <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-                    {techs.map((TechIcon, i) => (
+                    {techs.map(({ icon: TechIcon, name }, i) => (
                       <li key={i} className="flex items-center gap-2">
-                        <TechIcon className="text-lg text-blue-500 dark:text-blue-300" />{" "}
-                        {TechIcon.name.replace("Si", "")}
+                        <TechIcon className="text-lg text-blue-500 dark:text-blue-300" />
+                        {name}
                       </li>
                     ))}
                   </ul>
