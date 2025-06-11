@@ -1,0 +1,28 @@
+{
+  "welcome": {
+    "title": "Martin E. Tristán",
+    "quote_code": "Desarrollador Full Stack | Apasionado por el código y las interfaces que transmiten.",
+    "quote_vfx": "VFX Artist | Enamorado de los efectos visuales y la composición digital.",
+    "watch_button": "Ver DemoReel",
+    "url": "https://www.youtube.com/watch?v=OoweQKUru6g"
+  },
+  "tecnologies": {
+    "title": "Stak de Tecnologías",
+    "subtitle": "Explora mis habilidades y proyectos en desarrollo web.",
+    "languajes": "Lenguajes",
+    "backend": "Backend & Bases de Datos",
+    "frontend": "Herramientas & Frameworks",
+    "watch_button": "Ver Proyectos"
+  },
+  "vfx": {
+    "title": "Edición y VFX",
+    "subtitle": "Si puedes imaginarlo, podemos crearlo.",
+    "premier_desc": "(Descripcion de Premier Pro)",
+    "after_desc": "(Descripcion de After Effects)",
+    "resolve_desc": "(Descripcion de DaVinci Resolve)",
+    "blender_desc": "(Descripcion de Blender)",
+    "ps_desc": "(Descripcion de Photoshop)",
+    "c4d_desc": "(Descripcion de Cinema4D)",
+    "watch_button": "Ver Portafolio"
+  }
+}
